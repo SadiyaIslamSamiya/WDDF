@@ -1,0 +1,70 @@
+/* common code start */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+.d-flex{
+    display: flex;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* common code end */
+/* navbar start */
+#navbar-section{
+    background: rgb(77,251,162);
+}
+.navbar{
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.navbar-band{
+    color: rgb(6,6,6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+}
+.navbar-band i{
+    color: rgb(247,120,60);
+    transform: rotate(-45deg);
+    letter-spacing: -14px;
+    position: relative;
+    left: -6px;
+}
+.navbar-nav{
+    align-items: center;
+}
+.navbar-nav a{
+    color: rgb(6,6,6);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 20px;
+    margin: 0px 5px;
+}
+.navbar-nav a:hover{
+    color: rgb(247,120,60);
+    transition: .5s;
+}
+/* navbar end */
+/* header start */
+#header-section{
+    background: rgb(77,251,162);
+}
+.hero{
+    border: 2px solid red;
+    justify-content: space-between;
+}
+
+/* header end */

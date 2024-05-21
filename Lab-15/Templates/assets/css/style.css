@@ -1,0 +1,87 @@
+/* font */
+@font-face {
+	font-family:Playfair ;
+	src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+	font-family:source ;
+	src: url(../fonts/SourceSans3-VariableFont_wght.ttf);
+}
+/* common code */
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+.container{
+	width: 80%;
+	margin: 0px auto;
+}
+/* common code */
+
+/* nav section start */
+nav{
+	height: 60px;
+	padding: 10px;
+	/* border: 1px solid red; */
+}
+.navbar-brand{
+	width: 20%;
+	height: 100%;
+	float: left;
+	border: 1px solid green;
+	font-size: 20px;
+	/* line-height: 2px; */
+	font-family: Playfair ;
+	text-align: center;
+
+}
+.navbar{
+	width: 65%;
+	height: 100%;
+	float: left;
+	border: 1px solid green;
+	font-family:source ;
+}
+.navbar ul li a{
+	display: flex;
+}
+.navbar-btn{
+	width: 15%;
+	height: 100%;
+	float: left;
+	border: 1px solid green;
+}
+/* nav section end */
+
+/* header section start */
+header{
+	height: 300px;
+	border: 1px solid red;
+}
+/* .header-img{
+	width: 400px;
+} */
+/* header section end */
+
+/* about section start */
+.about-section{
+	height: 400px;
+	border: 1px solid red;
+}
+/* about section end */
+
+/* blog section start */
+.blog-section{
+	height: 400px;
+	border: 1px solid red;
+}
+/* blog section end */
+
+/* footer section start */
+footer{
+	height: 60px;
+	border: 1px solid red;
+}
+/* footer section end */
